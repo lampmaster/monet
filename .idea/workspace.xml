@@ -1,49 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02d0b9e1-11a0-4338-bba9-fe21c18dfa91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/DropMenu/DropMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/DropMenu/DropMenu.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Input/Input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Input/Input.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Select/Select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Select/Select.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Window/Window.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Window/Window.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/styles/pallete.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Main/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Main/Main.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Main/WIndows/AddTransactions/AddTransactions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Main/WIndows/AddTransactions/AddTransactions.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Main/components/Graph/Graph.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Main/components/Graph/Graph.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Main/components/OperationsList/OperationsList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Main/components/OperationsList/OperationsList.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Main/components/TopBar/TopBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Main/components/TopBar/TopBar.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Main/components/TotalBalance/TotalBalance.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Main/components/TotalBalance/TotalBalance.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Main/components/Wallets/AddWallets/AddWallet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Main/components/Wallets/AddWallets/AddWallet.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Main/components/Wallets/Wallets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Main/components/Wallets/Wallets.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/form/FormFramework.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hoc/Auxiliary/Auxiliary.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/pallete.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="02d0b9e1-11a0-4338-bba9-fe21c18dfa91" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,11 +73,24 @@
       <workItem from="1588611587478" duration="1778000" />
       <workItem from="1588621541437" duration="8940000" />
       <workItem from="1588702421333" duration="12000" />
+      <workItem from="1588703024031" duration="313000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1588703112176</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588703112176</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="416" y="148" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587583207328">

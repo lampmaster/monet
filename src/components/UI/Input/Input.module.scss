@@ -1,0 +1,23 @@
+@import "./src/styles/pallete";
+@import "../styles/pallete";
+
+.Input {
+  display: block;
+  height: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  width : 100%;
+  padding: $padding;
+  border: 1px solid $border-color;
+  font-size: 16px;
+  box-shadow: none;
+  border-radius: $border-radius;
+  outline: none;
+
+
+
+}
+
+.invalid {
+  border-color: red;
+}

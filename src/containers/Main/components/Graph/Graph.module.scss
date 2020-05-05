@@ -1,0 +1,13 @@
+@import "./src/styles/pallete";
+
+.Graph {
+  display: flex;
+  box-sizing: border-box;
+  //height: 50%;
+  width: 60%;
+  margin: $margin 0;
+
+  background-color: #ffffff;
+  border-radius: $border-radius;
+
+}

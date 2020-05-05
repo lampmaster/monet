@@ -1,0 +1,50 @@
+@import "./src/styles/pallete";
+
+.AddWallet {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 350px;
+  height: fit-content;
+  margin: auto;
+  padding: 25px;
+  box-sizing: border-box;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: $border-radius;
+  background: #ffffff;
+  z-index: 2000;
+
+  //:nth-child(n+2) {
+  //  margin-top: 20px;
+  //}
+
+  .control {
+    //display: flex;
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .cash {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 10px;
+    //flex-grow: 2;
+
+    .input {
+      width: 70%;
+      margin-right: 10px;
+      //flex-grow: 3;
+    }
+
+    .select {
+      width: 30%;
+      //flex-grow: 3;
+    }
+
+  }
+}
+

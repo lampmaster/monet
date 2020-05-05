@@ -1,0 +1,36 @@
+@import "./src/styles/pallete";
+
+.Main {
+  display: flex;
+  justify-content: center;
+  //flex-grow: 1;
+  height: 100%;
+  background: $background-color;
+  overflow: hidden;
+  //padding: 10px;
+  //border: #00c61c 15px solid;
+
+
+
+  .left {
+    display: flex;
+    //flex-direction: column;
+    overflow: hidden;
+    width: 900px;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    //height: ;
+    margin: 0;
+    //padding: 70px;
+    overflow: auto;
+
+  }
+
+  .right::-webkit-scrollbar {
+    display: none;
+  }
+
+}

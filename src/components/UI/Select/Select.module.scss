@@ -1,0 +1,33 @@
+@import "./src/styles/pallete";
+@import "../styles/pallete";
+
+.Select {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  height: $height;
+  padding: $padding;
+  background: transparent;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  outline: none;
+  font-size: 16px;
+
+  //&:after {
+  //  position: absolute;
+  //  content: "";
+  //  top: 14px;
+  //  right: 10px;
+  //  width: 0;
+  //  height: 0;
+  //  border: 6px solid transparent;
+  //  border-color: #fff transparent transparent transparent;
+  //}
+
+
+  :nth-child(n) {
+    font-size: 16px;
+    display: block;
+    height: $height;
+  }
+}

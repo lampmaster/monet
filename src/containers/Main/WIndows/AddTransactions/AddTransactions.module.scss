@@ -1,0 +1,24 @@
+@import "./src/styles/pallete";
+
+.AddTransactions {
+
+  .title {
+    color: $accent-color;
+  }
+
+  .date {
+    input {
+      //height: 50px;
+    }
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 25px;
+
+    :last-child {
+      margin-left: 10px;
+    }
+  }
+}

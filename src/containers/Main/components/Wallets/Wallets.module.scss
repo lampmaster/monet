@@ -1,0 +1,69 @@
+@import "./src/styles/pallete";
+
+.Wallets {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  //margin-top: $margin;
+  margin-bottom: $margin;
+  //width: 300px;
+  transition: all 2s ease-in-out;
+
+
+  .account {
+    cursor: pointer;
+    //position: relative;
+    padding: $padding;
+    margin-bottom: $margin;
+    background: white;
+    border-radius: $border-radius;
+
+    //&:first-child {
+    //  margin-top: 0;
+    //}
+    .title {
+      display: flex;
+      justify-content: space-between;
+      color: $title-color;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .menu {
+
+      &:hover {
+        color: #184ffc;
+      }
+    }
+
+    .score {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      font-size: 30px;
+      color: $title-color;
+
+      .currency {
+        display: flex;
+        justify-content: center;
+        height: 40px;
+        width: 40px;
+        margin-right: 14px;
+        color: #fff;
+        border-radius: 40px;
+        background: #d4d4d4;
+      }
+
+      .balance {
+        font-size: 40px;
+      }
+    }
+  }
+
+  .add {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+  }
+}

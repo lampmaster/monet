@@ -1,0 +1,85 @@
+@import "./src/styles/pallete";
+
+.OperationsList {
+  display: flex;
+  flex-direction: column;
+  //height: 50%;
+  width: 40%;
+  margin: $margin ;
+  box-sizing: border-box;
+  border-radius: $border-radius;
+  background: #ffffff;
+  padding: $padding;
+  overflow: hidden;
+
+
+  .title {
+    font-weight: 400;
+    font-size: 16px;
+    color: $title-color;
+    margin-bottom: 10px;
+  }
+
+
+
+  .list {
+    //display: flex;
+    //flex-direction: column;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 70px;
+
+      padding: 0 10px;
+
+      border-top: 1px solid rgba(224, 229, 238, 0.76);
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      .text {
+        display: flex;
+        flex-direction: column;
+
+        .type {
+          font-size: 16px;
+        }
+        .wallet {
+          color: $second-color;
+          font-size: 12px;
+        }
+      }
+
+      .date {
+        font-size: 14px;
+        color: $second-color;
+      }
+
+      .cash {
+        font-weight: 600;
+      }
+
+      .income {
+        color: #00c61c;
+      }
+
+      .expensive {
+        color: #fc1846;
+      }
+
+
+
+    }
+  }
+
+
+
+}

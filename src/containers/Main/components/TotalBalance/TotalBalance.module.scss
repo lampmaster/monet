@@ -1,0 +1,80 @@
+@import "./src/styles/pallete";
+
+.TotalBalance {
+  //width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: $padding;
+  margin: $margin 0;
+  border-radius: $border-radius;
+  background: #ffffff;
+
+
+  .title {
+    font-weight: 400;
+    font-size: 16px;
+    //color: #747474;
+    color: $title-color;
+  }
+
+  .balance {
+    font-size: 70px;
+    font-weight: 300;
+    //color: #0040ff;
+    color: $accent-color;
+  }
+
+  .statistics {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 5px;
+
+    .item {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+
+      .title {
+        width: 110px;
+        font-size: 14px;
+        color: $second-color;
+      }
+
+      .row {
+        display: flex;
+        //justify-content: space-between;
+        //align-items: center;
+        position: relative;
+        width: 100%;
+        height: fit-content;
+        border-radius: 17px;
+        background: #eaeaea;
+
+        .percent {
+          margin-left: 5px;
+          font-size: 12px;
+          position: absolute;
+          color: white;
+          //z-index: 1000;
+        }
+        .expensive {
+          width: 60px;
+          height: 17px;
+          background: #fc1846;
+          border-radius: 17px;
+        }
+
+        .income {
+          width: 100%;
+          height: 17px;
+          background: #00c61c;
+          border-radius: 17px;
+        }
+      }
+    }
+
+  }
+}

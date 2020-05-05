@@ -1,0 +1,52 @@
+@import "../styles/pallete";
+@import "../../../styles/pallete";
+
+.DropMenu {
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: $border-radius;
+  box-shadow: 0 0 20px rgba(64, 64, 64, 0.2);
+  //width: 100px;
+  right: 10px;
+  overflow: hidden;
+
+
+
+  .list {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 35px;
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(224, 229, 238, 0.76);
+    color: rgba(64, 65, 88, 0.79);
+
+    &:hover {
+      background: rgba(221, 236, 255, 0.29);
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    .icon {
+      size: 30px;
+      color: $second-color;
+      margin-right: 4px;
+    }
+  }
+}
+
+//.btn {
+//  padding: 5px;
+//}
+
+.button {
+  padding: 0 3px;
+  cursor: pointer;
+
+  &:hover {
+    border-radius: $border-radius;
+    background: rgba(206, 227, 255, 0.29);
+  }
+}

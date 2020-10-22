@@ -47,7 +47,7 @@ class Main extends Component {
             transactions: [
                 {
                     walletId: 0,
-                    type: 'Food',
+                    type: 'Debts',
                     date: '12/12/20',
                     cash: 100,
                 },
@@ -57,12 +57,59 @@ class Main extends Component {
                     date: '12/12/20',
                     cash: -100,
                 },
-
+                {
+                    walletId: 0,
+                    type: 'Food',
+                    date: '12/12/20',
+                    cash: -100,
+                },
+                {
+                    walletId: 2,
+                    type: 'Travel',
+                    date: '12/12/20',
+                    cash: -3000,
+                },
+                {
+                    walletId: 0,
+                    type: 'Debts',
+                    date: '12/12/20',
+                    cash: 100,
+                },
+                {
+                    walletId: 1,
+                    type: 'Clothes',
+                    date: '12/12/20',
+                    cash: -100,
+                },
+                {
+                    walletId: 0,
+                    type: 'Debts',
+                    date: '12/12/20',
+                    cash: 100,
+                },
+                {
+                    walletId: 1,
+                    type: 'Clothes',
+                    date: '12/12/20',
+                    cash: -100,
+                },
+                {
+                    walletId: 0,
+                    type: 'Debts',
+                    date: '12/12/20',
+                    cash: 100,
+                },
+                {
+                    walletId: 1,
+                    type: 'Clothes',
+                    date: '12/12/20',
+                    cash: -100,
+                },
             ]
         }
     }
 
-    openWalletCreator = props => {
+    openWalletCreator = () => {
         this.setState({
             isWalletWindowOpen: true
         })
@@ -88,9 +135,9 @@ class Main extends Component {
 
 
     windowCloseHandler = (window) => {
-        console.log(222, window)
         this.setState({
-            isWalletWindowOpen: false
+            isWalletWindowOpen: false,
+            isTransactionWindowOpen: false
         })
     }
 
@@ -121,7 +168,7 @@ class Main extends Component {
 
                 {
                     this.state.isTransactionWindowOpen
-                    ? <Window>
+                    ? <Window onClose={this.windowCloseHandler}>
                             <AddTransactions/>
                       </Window>
                     : null

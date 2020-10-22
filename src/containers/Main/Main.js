@@ -63,7 +63,6 @@ class Main extends Component {
     }
 
     openWalletCreator = props => {
-        console.log('create')
         this.setState({
             isWalletWindowOpen: true
         })

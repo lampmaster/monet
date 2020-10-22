@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="02d0b9e1-11a0-4338-bba9-fe21c18dfa91" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Window/Window.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Window/Window.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Window/Window.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Window/Window.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Main/components/TopBar/TopBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Main/components/TopBar/TopBar.module.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +92,7 @@
       <workItem from="1588702421333" duration="12000" />
       <workItem from="1588703024031" duration="313000" />
       <workItem from="1602971411113" duration="497000" />
-      <workItem from="1603382398993" duration="6158000" />
+      <workItem from="1603382398993" duration="6830000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1588703112176</created>
@@ -126,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603383607764</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix(Backdrop)">
+      <created>1603389843952</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603389843952</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +153,8 @@
     <MESSAGE value="fonts update" />
     <MESSAGE value="dependency update" />
     <MESSAGE value="console.log deleted" />
-    <option name="LAST_COMMIT_MESSAGE" value="console.log deleted" />
+    <MESSAGE value="fix(Backdrop)" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(Backdrop)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="416" y="148" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587583207328">

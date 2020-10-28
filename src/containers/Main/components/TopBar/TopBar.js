@@ -1,6 +1,6 @@
 import React from "react"
 import classes from './TopBar.module.scss'
-import {Droplet, Framer} from "react-feather";
+import {Droplet} from "react-feather";
 
 const TopBar = () => {
     return (

@@ -20,6 +20,16 @@
     background-color: $main-color;
   }
 
+  .prime {
+    color: white;
+    background: $main-color;
+
+    &:hover {
+      color: $main-color;
+      background-color: white;
+    }
+  }
+
   &:disabled {
     color: #adadad;
     border: 1px solid #adadad;
@@ -30,6 +40,5 @@
       background-color: transparent;
     }
   }
-
-
 }
+

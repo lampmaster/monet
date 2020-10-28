@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02d0b9e1-11a0-4338-bba9-fe21c18dfa91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/containers/Auth/Auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Auth/Auth.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Main/components/Logo/Logo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Main/components/Logo/Logo.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Main/components/TopBar/TopBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Main/components/TopBar/TopBar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Input/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Input/Input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Main/components/TopBar/TopBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Main/components/TopBar/TopBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form/FormFramework.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/FormFramework.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +103,8 @@
       <workItem from="1588702421333" duration="12000" />
       <workItem from="1588703024031" duration="313000" />
       <workItem from="1602971411113" duration="497000" />
-      <workItem from="1603382398993" duration="6830000" />
+      <workItem from="1603382398993" duration="6886000" />
+      <workItem from="1603895151054" duration="16179000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1588703112176</created>
@@ -129,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603389843952</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix(TopBar): logo width changed">
+      <created>1603390367373</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603390367373</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +173,8 @@
     <MESSAGE value="dependency update" />
     <MESSAGE value="console.log deleted" />
     <MESSAGE value="fix(Backdrop)" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(Backdrop)" />
+    <MESSAGE value="fix(TopBar): logo width changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(TopBar): logo width changed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="416" y="148" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587583207328">

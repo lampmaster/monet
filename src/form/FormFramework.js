@@ -1,3 +1,5 @@
+import is from "is_js";
+
 export function validate(value, validation = null) {
     if  (!validation) {
         return true
@@ -6,7 +8,15 @@ export function validate(value, validation = null) {
     let isValid = true
 
     if (validation.required) {
-        isValid = value.trim() !== ''
+        isValid = value.trim() !== '' && isValid
+    }
+
+    if (validation.email) {
+        isValid = is.email(value.trim()) && isValid
+    }
+
+    if (validation.minLength) {
+        isValid = value.length >= validation.minLength && isValid
     }
 
     return isValid

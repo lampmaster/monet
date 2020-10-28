@@ -1,0 +1,36 @@
+.Auth {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-grow: 1;
+  align-items: center;
+
+  .Container {
+    width: 100%;
+    max-width: 300px;
+    height: fit-content;
+
+    h1 {
+      text-align: center;
+    }
+
+    .col {
+      display: flex;
+      flex-direction: column;
+
+      :last-child {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .Authform {
+    margin-top: 15px;
+
+    :last-child {
+      margin-top: 20px;
+    }
+  }
+}
+
+

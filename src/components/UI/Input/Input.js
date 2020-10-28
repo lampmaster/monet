@@ -1,16 +1,14 @@
 import React from "react"
 import classes from './Input.module.scss'
 
-function isInvalid({valid, touched}) {
+function isInvalid({valid, touched, shouldValidate}) {
     console.log(valid, touched)
-    return !valid && touched
+    return !valid && touched && shouldValidate
 }
 
 const Input = props => {
-    // debugger
     const inputType = props.type || 'text'
     const cls = [classes.Input]
-    // console.log(isInvalid(props))
     if (isInvalid(props)) {
         cls.push(classes.invalid)
     }

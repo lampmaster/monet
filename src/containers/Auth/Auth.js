@@ -4,11 +4,11 @@ import Button from "../../components/UI/Button/Button";
 import Input from "../../components/UI/Input/Input";
 import {Logo} from "../Main/components/Logo/Logo";
 import {validate, validateForm} from "../../form/FormFramework";
-import {useHistory} from 'react-router-dom'
-import axios from "axios";
+import {connect} from "react-redux";
+import {auth} from "../../store/actions/auth";
 
 
-export default class Auth extends Component {
+class Auth extends Component {
 
     state = {
         isFormValid: false,
@@ -38,35 +38,21 @@ export default class Auth extends Component {
         }
     }
 
-    loginHandler = async () => {
-        // await axios.get('https://monet-c1972.firebaseio.com/quiz.json').then(res => console.log(res))
-        const authData = {
-            email: this.state.formControls.email.value,
-            password: this.state.formControls.password.value,
-            returnSecureToken: true
-        }
-
-        try {
-            const res = await axios.post('https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyADV_5Sar3NIHyNS5weDyxiQofUtc3nPOE', authData)
-            const history = useHistory()
-            history.push('/')
-        } catch (e) {
-            console.log(e)
-        }
+    loginHandler = () => {
+        this.props.auth(
+            this.state.formControls.email.value,
+            this.state.formControls.password.value,
+            true
+        )
+        this.props.history.push('/')
     }
 
-    registration = async () => {
-        const authData = {
-            email: this.state.formControls.email.value,
-            password: this.state.formControls.password.value,
-            returnSecureToken: true
-        }
-
-        try {
-            const res = await axios.post('https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyADV_5Sar3NIHyNS5weDyxiQofUtc3nPOE', authData)
-        } catch (e) {
-            console.log(e)
-        }
+    registration = () => {
+        this.props.auth(
+            this.state.formControls.email.value,
+            this.state.formControls.password.value,
+            false
+        )
     }
     submitHandler = (event) => {
         event.preventDefault()
@@ -141,6 +127,17 @@ export default class Auth extends Component {
                     </form>
                 </div>
             </div>
+
+
         )
     }
 }
+
+function mapDispatchToProps(dispatch) {
+    return {
+        auth: (email, password, isLogin) => dispatch(auth(email, password, isLogin))
+    }
+
+}
+
+export default connect(null, mapDispatchToProps)(Auth)

@@ -44,7 +44,6 @@ class Auth extends Component {
             this.state.formControls.password.value,
             true
         )
-        this.props.history.push('/')
     }
 
     registration = () => {

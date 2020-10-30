@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02d0b9e1-11a0-4338-bba9-fe21c18dfa91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/store/actions/actionTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/rootReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Logout/Logout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Auth/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Auth/Auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/auth.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1auMVuYGJKPnNxvxWdTdcoUgB18" />
@@ -101,7 +102,8 @@
       <workItem from="1602971411113" duration="497000" />
       <workItem from="1603382398993" duration="6886000" />
       <workItem from="1603895151054" duration="17200000" />
-      <workItem from="1603980980682" duration="6997000" />
+      <workItem from="1603980980682" duration="7191000" />
+      <workItem from="1604089701335" duration="4050000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1588703112176</created>
@@ -187,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603915548425</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="redux implemented">
+      <created>1603988300464</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603988300464</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,32 +228,21 @@
     <MESSAGE value="move logo into component" />
     <MESSAGE value="updated form validation function" />
     <MESSAGE value="added router for auth component" />
-    <option name="LAST_COMMIT_MESSAGE" value="added router for auth component" />
+    <MESSAGE value="redux implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="redux implemented" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="416" y="148" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587583207328">
-      <screen x="0" y="30" width="1366" height="738" />
-    </state>
-    <state x="416" y="148" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1366.738@0.30.1366.738" timestamp="1587583207328" />
-    <state x="431" y="254" width="494" height="292" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1588627212069">
-      <screen x="0" y="30" width="1366" height="738" />
-    </state>
-    <state x="431" y="254" width="494" height="292" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.30.1366.738@0.30.1366.738" timestamp="1588627212069" />
-    <state x="466" y="157" width="424" height="487" key="FileChooserDialogImpl" timestamp="1588628547646">
-      <screen x="0" y="30" width="1366" height="738" />
-    </state>
-    <state x="466" y="157" width="424" height="487" key="FileChooserDialogImpl/0.30.1366.738@0.30.1366.738" timestamp="1588628547646" />
-    <state x="391" y="143" width="583" height="512" key="find.popup" timestamp="1588462086953">
-      <screen x="0" y="30" width="1366" height="738" />
-    </state>
-    <state x="391" y="143" width="583" height="512" key="find.popup/0.30.1366.738@0.30.1366.738" timestamp="1588462086953" />
-    <state x="347" y="176" key="run.anything.popup" timestamp="1588458489196">
-      <screen x="0" y="30" width="1366" height="738" />
-    </state>
-    <state x="347" y="176" key="run.anything.popup/0.30.1366.738@0.30.1366.738" timestamp="1588458489196" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1588532589281">
-      <screen x="0" y="30" width="1366" height="738" />
-    </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.30.1366.738@0.30.1366.738" timestamp="1588532589281" />
+    <state x="416" y="148" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" />
+    <state x="416" y="148" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1366.738@0.30.1366.738" />
+    <state x="431" y="254" width="494" height="292" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" />
+    <state x="431" y="254" width="494" height="292" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.30.1366.738@0.30.1366.738" />
+    <state x="466" y="157" width="424" height="487" key="FileChooserDialogImpl" />
+    <state x="466" y="157" width="424" height="487" key="FileChooserDialogImpl/0.30.1366.738@0.30.1366.738" />
+    <state x="391" y="143" width="583" height="512" key="find.popup" />
+    <state x="391" y="143" width="583" height="512" key="find.popup/0.30.1366.738@0.30.1366.738" />
+    <state x="347" y="176" key="run.anything.popup" />
+    <state x="347" y="176" key="run.anything.popup/0.30.1366.738@0.30.1366.738" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.30.1366.738@0.30.1366.738" />
   </component>
 </project>

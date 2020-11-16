@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02d0b9e1-11a0-4338-bba9-fe21c18dfa91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Logout/Logout.js" afterDir="false" />
+    <list default="true" id="02d0b9e1-11a0-4338-bba9-fe21c18dfa91" name="Default Changelist" comment="auto login implemented">
+      <change afterPath="$PROJECT_DIR$/screen-shots/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screen-shots/img_2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Auth/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Auth/Auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +49,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pupi\WebstormProjects\monet\screen-shots" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -103,7 +107,11 @@
       <workItem from="1603382398993" duration="6886000" />
       <workItem from="1603895151054" duration="17200000" />
       <workItem from="1603980980682" duration="7191000" />
-      <workItem from="1604089701335" duration="4050000" />
+      <workItem from="1604089701335" duration="5487000" />
+      <workItem from="1604435997939" duration="91000" />
+      <workItem from="1605463435047" duration="699000" />
+      <workItem from="1605518921250" duration="229000" />
+      <workItem from="1605559083237" duration="4065000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1588703112176</created>
@@ -196,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603988300464</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="auto login implemented">
+      <created>1604093891772</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604093891772</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +244,8 @@
     <MESSAGE value="updated form validation function" />
     <MESSAGE value="added router for auth component" />
     <MESSAGE value="redux implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="redux implemented" />
+    <MESSAGE value="auto login implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="auto login implemented" />
   </component>
   <component name="WindowStateProjectService">
     <state x="416" y="148" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" />
